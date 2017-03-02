@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A87A8A61E68584000A44341 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A87A8A51E68584000A44341 /* AppDelegate.swift */; };
+		2A87A8A81E68584000A44341 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A87A8A71E68584000A44341 /* Assets.xcassets */; };
+		2A87A8AB1E68584000A44341 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A87A8A91E68584000A44341 /* MainMenu.xib */; };
+		2A87A8B61E68584000A44341 /* popgraphsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A87A8B51E68584000A44341 /* popgraphsTests.swift */; };
+		2A87A8C11E68584000A44341 /* popgraphsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A87A8C01E68584000A44341 /* popgraphsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A87A8B21E68584000A44341 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A87A89A1E68584000A44341 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A87A8A11E68584000A44341;
+			remoteInfo = popgraphs;
+		};
+		2A87A8BD1E68584000A44341 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A87A89A1E68584000A44341 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A87A8A11E68584000A44341;
+			remoteInfo = popgraphs;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A87A8A21E68584000A44341 /* popgraphs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = popgraphs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A87A8A51E68584000A44341 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2A87A8A71E68584000A44341 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A87A8AA1E68584000A44341 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2A87A8AC1E68584000A44341 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A87A8B11E68584000A44341 /* popgraphsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = popgraphsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A87A8B51E68584000A44341 /* popgraphsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popgraphsTests.swift; sourceTree = "<group>"; };
+		2A87A8B71E68584000A44341 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A87A8BC1E68584000A44341 /* popgraphsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = popgraphsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A87A8C01E68584000A44341 /* popgraphsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popgraphsUITests.swift; sourceTree = "<group>"; };
+		2A87A8C21E68584000A44341 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A87A89F1E68584000A44341 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A87A8AE1E68584000A44341 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A87A8B91E68584000A44341 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A87A8991E68584000A44341 = {
+			isa = PBXGroup;
+			children = (
+				2A87A8A41E68584000A44341 /* popgraphs */,
+				2A87A8B41E68584000A44341 /* popgraphsTests */,
+				2A87A8BF1E68584000A44341 /* popgraphsUITests */,
+				2A87A8A31E68584000A44341 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A87A8A31E68584000A44341 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A87A8A21E68584000A44341 /* popgraphs.app */,
+				2A87A8B11E68584000A44341 /* popgraphsTests.xctest */,
+				2A87A8BC1E68584000A44341 /* popgraphsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A87A8A41E68584000A44341 /* popgraphs */ = {
+			isa = PBXGroup;
+			children = (
+				2A87A8A51E68584000A44341 /* AppDelegate.swift */,
+				2A87A8A71E68584000A44341 /* Assets.xcassets */,
+				2A87A8A91E68584000A44341 /* MainMenu.xib */,
+				2A87A8AC1E68584000A44341 /* Info.plist */,
+			);
+			path = popgraphs;
+			sourceTree = "<group>";
+		};
+		2A87A8B41E68584000A44341 /* popgraphsTests */ = {
+			isa = PBXGroup;
+			children = (
+				2A87A8B51E68584000A44341 /* popgraphsTests.swift */,
+				2A87A8B71E68584000A44341 /* Info.plist */,
+			);
+			path = popgraphsTests;
+			sourceTree = "<group>";
+		};
+		2A87A8BF1E68584000A44341 /* popgraphsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2A87A8C01E68584000A44341 /* popgraphsUITests.swift */,
+				2A87A8C21E68584000A44341 /* Info.plist */,
+			);
+			path = popgraphsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A87A8A11E68584000A44341 /* popgraphs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A87A8C51E68584000A44341 /* Build configuration list for PBXNativeTarget "popgraphs" */;
+			buildPhases = (
+				2A87A89E1E68584000A44341 /* Sources */,
+				2A87A89F1E68584000A44341 /* Frameworks */,
+				2A87A8A01E68584000A44341 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = popgraphs;
+			productName = popgraphs;
+			productReference = 2A87A8A21E68584000A44341 /* popgraphs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2A87A8B01E68584000A44341 /* popgraphsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A87A8C81E68584000A44341 /* Build configuration list for PBXNativeTarget "popgraphsTests" */;
+			buildPhases = (
+				2A87A8AD1E68584000A44341 /* Sources */,
+				2A87A8AE1E68584000A44341 /* Frameworks */,
+				2A87A8AF1E68584000A44341 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A87A8B31E68584000A44341 /* PBXTargetDependency */,
+			);
+			name = popgraphsTests;
+			productName = popgraphsTests;
+			productReference = 2A87A8B11E68584000A44341 /* popgraphsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2A87A8BB1E68584000A44341 /* popgraphsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A87A8CB1E68584000A44341 /* Build configuration list for PBXNativeTarget "popgraphsUITests" */;
+			buildPhases = (
+				2A87A8B81E68584000A44341 /* Sources */,
+				2A87A8B91E68584000A44341 /* Frameworks */,
+				2A87A8BA1E68584000A44341 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A87A8BE1E68584000A44341 /* PBXTargetDependency */,
+			);
+			name = popgraphsUITests;
+			productName = popgraphsUITests;
+			productReference = 2A87A8BC1E68584000A44341 /* popgraphsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A87A89A1E68584000A44341 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Rodney Dyer";
+				TargetAttributes = {
+					2A87A8A11E68584000A44341 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 626QFAP74Z;
+						ProvisioningStyle = Automatic;
+					};
+					2A87A8B01E68584000A44341 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 626QFAP74Z;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2A87A8A11E68584000A44341;
+					};
+					2A87A8BB1E68584000A44341 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 626QFAP74Z;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2A87A8A11E68584000A44341;
+					};
+				};
+			};
+			buildConfigurationList = 2A87A89D1E68584000A44341 /* Build configuration list for PBXProject "popgraphs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A87A8991E68584000A44341;
+			productRefGroup = 2A87A8A31E68584000A44341 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A87A8A11E68584000A44341 /* popgraphs */,
+				2A87A8B01E68584000A44341 /* popgraphsTests */,
+				2A87A8BB1E68584000A44341 /* popgraphsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A87A8A01E68584000A44341 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A87A8A81E68584000A44341 /* Assets.xcassets in Resources */,
+				2A87A8AB1E68584000A44341 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A87A8AF1E68584000A44341 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A87A8BA1E68584000A44341 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A87A89E1E68584000A44341 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A87A8A61E68584000A44341 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A87A8AD1E68584000A44341 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A87A8B61E68584000A44341 /* popgraphsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A87A8B81E68584000A44341 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A87A8C11E68584000A44341 /* popgraphsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A87A8B31E68584000A44341 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A87A8A11E68584000A44341 /* popgraphs */;
+			targetProxy = 2A87A8B21E68584000A44341 /* PBXContainerItemProxy */;
+		};
+		2A87A8BE1E68584000A44341 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A87A8A11E68584000A44341 /* popgraphs */;
+			targetProxy = 2A87A8BD1E68584000A44341 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2A87A8A91E68584000A44341 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A87A8AA1E68584000A44341 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A87A8C31E68584000A44341 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2A87A8C41E68584000A44341 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		2A87A8C61E68584000A44341 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 626QFAP74Z;
+				INFOPLIST_FILE = popgraphs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dyerlab.popgraphs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2A87A8C71E68584000A44341 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 626QFAP74Z;
+				INFOPLIST_FILE = popgraphs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dyerlab.popgraphs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2A87A8C91E68584000A44341 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 626QFAP74Z;
+				INFOPLIST_FILE = popgraphsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dyerlab.popgraphsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/popgraphs.app/Contents/MacOS/popgraphs";
+			};
+			name = Debug;
+		};
+		2A87A8CA1E68584000A44341 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 626QFAP74Z;
+				INFOPLIST_FILE = popgraphsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dyerlab.popgraphsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/popgraphs.app/Contents/MacOS/popgraphs";
+			};
+			name = Release;
+		};
+		2A87A8CC1E68584000A44341 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 626QFAP74Z;
+				INFOPLIST_FILE = popgraphsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dyerlab.popgraphsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = popgraphs;
+			};
+			name = Debug;
+		};
+		2A87A8CD1E68584000A44341 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 626QFAP74Z;
+				INFOPLIST_FILE = popgraphsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dyerlab.popgraphsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = popgraphs;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A87A89D1E68584000A44341 /* Build configuration list for PBXProject "popgraphs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A87A8C31E68584000A44341 /* Debug */,
+				2A87A8C41E68584000A44341 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A87A8C51E68584000A44341 /* Build configuration list for PBXNativeTarget "popgraphs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A87A8C61E68584000A44341 /* Debug */,
+				2A87A8C71E68584000A44341 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2A87A8C81E68584000A44341 /* Build configuration list for PBXNativeTarget "popgraphsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A87A8C91E68584000A44341 /* Debug */,
+				2A87A8CA1E68584000A44341 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2A87A8CB1E68584000A44341 /* Build configuration list for PBXNativeTarget "popgraphsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A87A8CC1E68584000A44341 /* Debug */,
+				2A87A8CD1E68584000A44341 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A87A89A1E68584000A44341 /* Project object */;
+}
