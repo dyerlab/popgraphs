@@ -12,6 +12,9 @@
 		2A87A8AB1E68584000A44341 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A87A8A91E68584000A44341 /* MainMenu.xib */; };
 		2A87A8B61E68584000A44341 /* popgraphsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A87A8B51E68584000A44341 /* popgraphsTests.swift */; };
 		2A87A8C11E68584000A44341 /* popgraphsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A87A8C01E68584000A44341 /* popgraphsUITests.swift */; };
+		2A87A8CF1E68597C00A44341 /* DLNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A87A8CE1E68597B00A44341 /* DLNode.swift */; };
+		2A87A8D51E68A7FF00A44341 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A87A8D41E68A7FF00A44341 /* GraphView.swift */; };
+		2A87A8D71E68C07900A44341 /* GraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A87A8D61E68C07900A44341 /* GraphViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +46,9 @@
 		2A87A8BC1E68584000A44341 /* popgraphsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = popgraphsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A87A8C01E68584000A44341 /* popgraphsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popgraphsUITests.swift; sourceTree = "<group>"; };
 		2A87A8C21E68584000A44341 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A87A8CE1E68597B00A44341 /* DLNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLNode.swift; sourceTree = "<group>"; };
+		2A87A8D41E68A7FF00A44341 /* GraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
+		2A87A8D61E68C07900A44341 /* GraphViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,10 +99,13 @@
 		2A87A8A41E68584000A44341 /* popgraphs */ = {
 			isa = PBXGroup;
 			children = (
+				2A87A8D81E68C08A00A44341 /* Views */,
 				2A87A8A51E68584000A44341 /* AppDelegate.swift */,
 				2A87A8A71E68584000A44341 /* Assets.xcassets */,
 				2A87A8A91E68584000A44341 /* MainMenu.xib */,
 				2A87A8AC1E68584000A44341 /* Info.plist */,
+				2A87A8CE1E68597B00A44341 /* DLNode.swift */,
+				2A87A8D91E68C09200A44341 /* Model */,
 			);
 			path = popgraphs;
 			sourceTree = "<group>";
@@ -117,6 +126,22 @@
 				2A87A8C21E68584000A44341 /* Info.plist */,
 			);
 			path = popgraphsUITests;
+			sourceTree = "<group>";
+		};
+		2A87A8D81E68C08A00A44341 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2A87A8D41E68A7FF00A44341 /* GraphView.swift */,
+				2A87A8D61E68C07900A44341 /* GraphViewController.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		2A87A8D91E68C09200A44341 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,6 +281,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A87A8A61E68584000A44341 /* AppDelegate.swift in Sources */,
+				2A87A8D71E68C07900A44341 /* GraphViewController.swift in Sources */,
+				2A87A8CF1E68597C00A44341 /* DLNode.swift in Sources */,
+				2A87A8D51E68A7FF00A44341 /* GraphView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
