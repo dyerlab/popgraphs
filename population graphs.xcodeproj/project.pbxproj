@@ -53,6 +53,7 @@
 		2AC43FDC20163BC500042DF5 /* population graphsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "population graphsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AC43FE020163BC500042DF5 /* population_graphsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = population_graphsTests.swift; sourceTree = "<group>"; };
 		2AC43FE220163BC500042DF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AEDDED520167C460024E0B9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +95,7 @@
 		2AC43FC120163BC400042DF5 = {
 			isa = PBXGroup;
 			children = (
+				2AEDDED520167C460024E0B9 /* README.md */,
 				2AC43FCC20163BC400042DF5 /* population graphs */,
 				2AC43FDF20163BC500042DF5 /* population graphsTests */,
 				2AC43FCB20163BC400042DF5 /* Products */,
