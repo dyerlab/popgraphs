@@ -23,6 +23,7 @@
 		2AC43FD220163BC400042DF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AC43FD120163BC400042DF5 /* Assets.xcassets */; };
 		2AC43FD520163BC500042DF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AC43FD320163BC500042DF5 /* Main.storyboard */; };
 		2AC43FE120163BC500042DF5 /* population_graphsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC43FE020163BC500042DF5 /* population_graphsTests.swift */; };
+		2AEDDED720167CB50024E0B9 /* Vector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEDDED620167CB50024E0B9 /* Vector.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		2AC43FE020163BC500042DF5 /* population_graphsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = population_graphsTests.swift; sourceTree = "<group>"; };
 		2AC43FE220163BC500042DF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2AEDDED520167C460024E0B9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2AEDDED620167CB50024E0B9 /* Vector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vector.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				2A39BF5620164B63009E7B2C /* Matrix.swift */,
+				2AEDDED620167CB50024E0B9 /* Vector.swift */,
 			);
 			path = Matrices;
 			sourceTree = "<group>";
@@ -243,6 +246,7 @@
 				2A3AF11220163CDE00EE1F2A /* Node.swift in Sources */,
 				2A3AF1142016407200EE1F2A /* Edge.swift in Sources */,
 				2A39BF5720164B63009E7B2C /* Matrix.swift in Sources */,
+				2AEDDED720167CB50024E0B9 /* Vector.swift in Sources */,
 				2AC43FD020163BC400042DF5 /* ViewController.swift in Sources */,
 				2A39BF4C20164489009E7B2C /* PopulationGraph.swift in Sources */,
 				2AC43FCE20163BC400042DF5 /* AppDelegate.swift in Sources */,
