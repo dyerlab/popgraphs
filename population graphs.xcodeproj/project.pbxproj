@@ -24,6 +24,7 @@
 		2AC43FD520163BC500042DF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AC43FD320163BC500042DF5 /* Main.storyboard */; };
 		2AC43FE120163BC500042DF5 /* population_graphsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC43FE020163BC500042DF5 /* population_graphsTests.swift */; };
 		2AEDDED720167CB50024E0B9 /* Vector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEDDED620167CB50024E0B9 /* Vector.swift */; };
+		2AEDDED9201699C40024E0B9 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEDDED8201699C40024E0B9 /* GraphView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		2AC43FE220163BC500042DF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2AEDDED520167C460024E0B9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2AEDDED620167CB50024E0B9 /* Vector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vector.swift; sourceTree = "<group>"; };
+		2AEDDED8201699C40024E0B9 /* GraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,8 @@
 			children = (
 				2AEDDED520167C460024E0B9 /* README.md */,
 				2AC43FCC20163BC400042DF5 /* population graphs */,
+				2AC43FD120163BC400042DF5 /* Assets.xcassets */,
+				2AC43FD720163BC500042DF5 /* population_graphs.entitlements */,
 				2AC43FDF20163BC500042DF5 /* population graphsTests */,
 				2AC43FCB20163BC400042DF5 /* Products */,
 			);
@@ -117,14 +121,13 @@
 		2AC43FCC20163BC400042DF5 /* population graphs */ = {
 			isa = PBXGroup;
 			children = (
-				2A39BF5520164B4F009E7B2C /* Matrices */,
 				2AC43FCD20163BC400042DF5 /* AppDelegate.swift */,
 				2AC43FCF20163BC400042DF5 /* ViewController.swift */,
-				2AC43FD120163BC400042DF5 /* Assets.xcassets */,
 				2AC43FD320163BC500042DF5 /* Main.storyboard */,
 				2AC43FD620163BC500042DF5 /* Info.plist */,
-				2AC43FD720163BC500042DF5 /* population_graphs.entitlements */,
+				2A39BF5520164B4F009E7B2C /* Matrices */,
 				2A39BF4D20164491009E7B2C /* Network */,
+				2AEDDEDA201699CD0024E0B9 /* Interface */,
 			);
 			path = "population graphs";
 			sourceTree = "<group>";
@@ -139,6 +142,15 @@
 				2A39BF59201671D3009E7B2C /* PopulationGraphTests.swift */,
 			);
 			path = "population graphsTests";
+			sourceTree = "<group>";
+		};
+		2AEDDEDA201699CD0024E0B9 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				2AEDDED8201699C40024E0B9 /* GraphView.swift */,
+			);
+			name = Interface;
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,6 +262,7 @@
 				2AC43FD020163BC400042DF5 /* ViewController.swift in Sources */,
 				2A39BF4C20164489009E7B2C /* PopulationGraph.swift in Sources */,
 				2AC43FCE20163BC400042DF5 /* AppDelegate.swift in Sources */,
+				2AEDDED9201699C40024E0B9 /* GraphView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
