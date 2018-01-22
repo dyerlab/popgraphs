@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:popgraphs.xcodeproj">
+      location = "self:population graphs.xcodeproj">
    </FileRef>
 </Workspace>

@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  popgraphs
+//  population graphs
 //
-//  Created by Rodney Dyer on 3/2/17.
-//  Copyright © 2017 Rodney Dyer. All rights reserved.
+//  Created by Rodney Dyer on 1/22/18.
+//  Copyright © 2018 Rodney Dyer. All rights reserved.
 //
 
 import Cocoa
@@ -11,7 +11,6 @@ import Cocoa
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
 
-    @IBOutlet weak var window: NSWindow!
 
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {

@@ -1,15 +1,15 @@
 //
-//  popgraphsTests.swift
-//  popgraphsTests
+//  population_graphsTests.swift
+//  population graphsTests
 //
-//  Created by Rodney Dyer on 3/2/17.
-//  Copyright © 2017 Rodney Dyer. All rights reserved.
+//  Created by Rodney Dyer on 1/22/18.
+//  Copyright © 2018 Rodney Dyer. All rights reserved.
 //
 
 import XCTest
-@testable import popgraphs
+@testable import population_graphs
 
-class popgraphsTests: XCTestCase {
+class population_graphsTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
