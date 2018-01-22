@@ -51,13 +51,13 @@
 		2AC43FD120163BC400042DF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2AC43FD420163BC500042DF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2AC43FD620163BC500042DF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2AC43FD720163BC500042DF5 /* population_graphs.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = population_graphs.entitlements; sourceTree = "<group>"; };
 		2AC43FDC20163BC500042DF5 /* population graphsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "population graphsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AC43FE020163BC500042DF5 /* population_graphsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = population_graphsTests.swift; sourceTree = "<group>"; };
 		2AC43FE220163BC500042DF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2AEDDED520167C460024E0B9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2AEDDED620167CB50024E0B9 /* Vector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vector.swift; sourceTree = "<group>"; };
 		2AEDDED8201699C40024E0B9 /* GraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
+		2AF5FA6820169BFA00C2100D /* population_graphs.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = population_graphs.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,6 @@
 				2AEDDED520167C460024E0B9 /* README.md */,
 				2AC43FCC20163BC400042DF5 /* population graphs */,
 				2AC43FD120163BC400042DF5 /* Assets.xcassets */,
-				2AC43FD720163BC500042DF5 /* population_graphs.entitlements */,
 				2AC43FDF20163BC500042DF5 /* population graphsTests */,
 				2AC43FCB20163BC400042DF5 /* Products */,
 			);
@@ -121,6 +120,7 @@
 		2AC43FCC20163BC400042DF5 /* population graphs */ = {
 			isa = PBXGroup;
 			children = (
+				2AF5FA6820169BFA00C2100D /* population_graphs.entitlements */,
 				2AC43FCD20163BC400042DF5 /* AppDelegate.swift */,
 				2AC43FCF20163BC400042DF5 /* ViewController.swift */,
 				2AC43FD320163BC500042DF5 /* Main.storyboard */,

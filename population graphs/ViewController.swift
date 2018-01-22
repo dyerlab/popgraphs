@@ -18,7 +18,7 @@ class ViewController: NSViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        sceneView.setup()
+        
         
 //        // Do any additional setup after loading the view.
 //        let scene = SCNScene()
