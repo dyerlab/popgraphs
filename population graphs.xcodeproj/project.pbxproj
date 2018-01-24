@@ -18,6 +18,7 @@
 		2A39BF5A201671D3009E7B2C /* PopulationGraphTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A39BF59201671D3009E7B2C /* PopulationGraphTests.swift */; };
 		2A3AF11220163CDE00EE1F2A /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3AF11120163CDE00EE1F2A /* Node.swift */; };
 		2A3AF1142016407200EE1F2A /* Edge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3AF1132016407200EE1F2A /* Edge.swift */; };
+		2AB043DA2017CB6B007B56DC /* GraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB043D92017CB6B007B56DC /* GraphViewController.swift */; };
 		2AC43FCE20163BC400042DF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC43FCD20163BC400042DF5 /* AppDelegate.swift */; };
 		2AC43FD020163BC400042DF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC43FCF20163BC400042DF5 /* ViewController.swift */; };
 		2AC43FD220163BC400042DF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AC43FD120163BC400042DF5 /* Assets.xcassets */; };
@@ -45,6 +46,7 @@
 		2A39BF59201671D3009E7B2C /* PopulationGraphTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopulationGraphTests.swift; sourceTree = "<group>"; };
 		2A3AF11120163CDE00EE1F2A /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
 		2A3AF1132016407200EE1F2A /* Edge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Edge.swift; sourceTree = "<group>"; };
+		2AB043D92017CB6B007B56DC /* GraphViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphViewController.swift; sourceTree = "<group>"; };
 		2AC43FCA20163BC400042DF5 /* population graphs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "population graphs.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AC43FCD20163BC400042DF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2AC43FCF20163BC400042DF5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -147,6 +149,7 @@
 		2AEDDEDA201699CD0024E0B9 /* Interface */ = {
 			isa = PBXGroup;
 			children = (
+				2AB043D92017CB6B007B56DC /* GraphViewController.swift */,
 				2AEDDED8201699C40024E0B9 /* GraphView.swift */,
 			);
 			name = Interface;
@@ -256,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A3AF11220163CDE00EE1F2A /* Node.swift in Sources */,
+				2AB043DA2017CB6B007B56DC /* GraphViewController.swift in Sources */,
 				2A3AF1142016407200EE1F2A /* Edge.swift in Sources */,
 				2A39BF5720164B63009E7B2C /* Matrix.swift in Sources */,
 				2AEDDED720167CB50024E0B9 /* Vector.swift in Sources */,

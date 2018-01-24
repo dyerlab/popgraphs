@@ -1,4 +1,5 @@
 import Foundation
+import SceneKit
 
 public class PopulationGraph {
     var nodes : [Node]
@@ -49,6 +50,13 @@ extension PopulationGraph: Equatable {
         return left.nodes == right.nodes && left.edges == right.edges
     }
 }
+
+
+
+
+
+
+
 
 
 

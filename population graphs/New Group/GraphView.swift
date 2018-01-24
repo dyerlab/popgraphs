@@ -11,53 +11,61 @@ import SceneKit
 
 class GraphView: SCNView {
     
-    var cameraNode : SCNNode
-    var light : SCNLight
+    var numbers = Array<Int>()
     
-    required init?(coder aDecoder: NSCoder) {
-        cameraNode = SCNNode()
-        light = SCNLight()
-        
-        super.init(coder: aDecoder)
-        
-        let boxSide : CGFloat = 10.0
-        let box = SCNBox(width: boxSide, height: boxSide, length: boxSide, chamferRadius: 0.0)
-        //let box = SCNSphere(radius: boxSide)
-        let boxNode = SCNNode(geometry: box)
-        scene?.rootNode.addChildNode(boxNode as SCNNode)
-        boxNode.rotation = SCNVector4Make(0.0, 1.0, 0.0, CGFloat(Double.pi/5.0))
-        
-        print("init");
-        self.setupCamera()
-    }
-    
-    
-    func setupCamera() {
+    override func awakeFromNib() {
+        let cameraNode = SCNNode()
         cameraNode.camera = SCNCamera()
-        cameraNode.position = SCNVector3Make(0, 10, 20)
-        cameraNode.rotation = SCNVector4Make(1, 0, 0, -atan2(10.0,20.0))
-        scene?.rootNode.addChildNode(cameraNode)
+        cameraNode.position = SCNVector3Make(0, 20, 40)
+        cameraNode.rotation = SCNVector4Make(1, 0, 0, CGFloat(-atan2f(20.0,40.0)) )
         
-        let lightBlue = NSColor(calibratedRed: 4.0/255.0,
-                                green: 120.0/255,
-                                blue: 255.0/255,
-                                alpha: 1.0)
+        let directionalLight = SCNLight()
+        directionalLight.type = SCNLight.LightType.directional
+        directionalLight.color = NSColor(calibratedWhite: 0.3, alpha: 1.0)
+        let directionalLightNode = SCNNode()
+        directionalLightNode.light = directionalLight
+        directionalLightNode.rotation = SCNVector4Make(0, 1, 0, CGFloat(Double.pi / 4.0))
+        scene?.rootNode.addChildNode(directionalLightNode)
         
-        light.type = SCNLight.LightType.directional
-        light.color = lightBlue
+        let ambientLight = SCNLight()
+        ambientLight.type = SCNLight.LightType.ambient
+        ambientLight.color = NSColor(calibratedWhite: 0.25, alpha: 1.0 )
+        let ambientNode = SCNNode()
+        ambientNode.light = ambientLight
+        scene?.rootNode.addChildNode(ambientNode)
         
-        let lightNode = SCNNode()
-        lightNode.light = light
-        cameraNode.addChildNode(lightNode )
-        print("camera")
+        let spotLight = SCNLight()
+        spotLight.type = SCNLight.LightType.spot
+        spotLight.color = NSColor(calibratedWhite: 0.4, alpha: 1.0)
+        let spotNode = SCNNode()
+        spotNode.light = spotLight
+        spotNode.position = SCNVector3Make(-30, 25, 30)
+        spotLight.spotInnerAngle = 60
+        spotLight.spotOuterAngle = 100
+        spotNode.constraints = [SCNLookAtConstraint(target: scene?.rootNode )]
+        spotLight.castsShadow = true
+        
+        let floor = SCNFloor()
+        floor.firstMaterial?.diffuse.contents = NSColor(calibratedRed: 80.0/255, green: 80.0/255, blue: 80.0/255, alpha: 1.0)
+        floor.firstMaterial?.lightingModel = SCNMaterial.LightingModel.constant
+        floor.reflectivity = 0.15
+        floor.reflectionFalloffEnd = 15
+        let floorNode = SCNNode(geometry: floor)
+        scene?.rootNode.addChildNode(floorNode)
+        
+        print("finished AFN")
+        
     }
-    
-    
 
     override func draw(_ dirtyRect: NSRect) {
         super.draw(dirtyRect)
 
         // Drawing code here.
+        
+        print("draw(_)")
     }
     
 }
+
+
+
