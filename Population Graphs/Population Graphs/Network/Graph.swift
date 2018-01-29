@@ -1,7 +1,7 @@
 import Foundation
 import SceneKit
 
-public class PopulationGraph {
+public class Graph {
     var nodes : [Node]
     var edges : [Edge]
     
@@ -29,7 +29,7 @@ public class PopulationGraph {
 }
 
 
-extension PopulationGraph: CustomStringConvertible {
+extension Graph: CustomStringConvertible {
     public var description : String {
         get {
             var ret = "Population Graph:\n"
@@ -45,8 +45,8 @@ extension PopulationGraph: CustomStringConvertible {
 }
 
 
-extension PopulationGraph: Equatable {
-    public static func ==(left: PopulationGraph, right: PopulationGraph ) -> Bool {
+extension Graph: Equatable {
+    public static func ==(left: Graph, right: Graph ) -> Bool {
         return left.nodes == right.nodes && left.edges == right.edges
     }
 }
@@ -60,8 +60,8 @@ extension PopulationGraph: Equatable {
 
 
 
-public func makeLopho() -> PopulationGraph {
-    let graph = PopulationGraph()
+public func makeLopho() -> Graph {
+    let graph = Graph()
     let size = 1.0
     let labels = ["BaC", "Ctv", "LaV", "Lig", "PtC", "PtP", "SLG", "SnE", "SnF", "SnI",
                   "StR", "TsS", "CP", "LF", "PL", "SenBas", "Seri", "SG", "SI", "SN", "TS"]

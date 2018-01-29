@@ -1,15 +1,15 @@
 //
-//  population_graphsTests.swift
-//  population graphsTests
+//  Population_GraphsTests.swift
+//  Population GraphsTests
 //
-//  Created by Rodney Dyer on 1/22/18.
+//  Created by Rodney Dyer on 1/29/18.
 //  Copyright © 2018 Rodney Dyer. All rights reserved.
 //
 
 import XCTest
-@testable import population_graphs
+@testable import Population_Graphs
 
-class population_graphsTests: XCTestCase {
+class Population_GraphsTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

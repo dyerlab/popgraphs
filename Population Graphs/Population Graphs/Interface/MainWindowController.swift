@@ -8,10 +8,10 @@
 
 import Cocoa
 
-class GraphWindowController: NSWindowController {
+class MainWindowController: NSWindowController {
 
     convenience init() {
-        self.init(windowNibName: NSNib.Name(rawValue: "GraphWindowController") )
+        self.init(windowNibName: NSNib.Name(rawValue: "MainWindowController") )
     }
     override func windowDidLoad() {
         super.windowDidLoad()
