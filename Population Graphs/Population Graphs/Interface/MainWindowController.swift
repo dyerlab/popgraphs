@@ -15,9 +15,6 @@ class MainWindowController: NSWindowController {
     }
     override func windowDidLoad() {
         super.windowDidLoad()
-
-        window?.titleVisibility = .hidden
-        
     }
     
 }

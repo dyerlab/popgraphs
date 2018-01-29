@@ -71,6 +71,8 @@ class GraphView: SCNView {
         
         self.scene = theScene
         
+        print("finishing scene setup.")
+        
     }
 
    
