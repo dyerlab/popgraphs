@@ -11,12 +11,19 @@ import Cocoa
 class GraphViewController: NSViewController {
 
     @IBOutlet var graphView: GraphView!
-        
+    
+    
+    
+    convenience init() {
+        self.init(nibName: NSNib.Name(rawValue: "GraphViewController"), bundle: nil )
+        print("GraphViewController::init ")
+    }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do view setup here.
         
+        print("in GraphViewController::viewDidLoad")
         
     }
     

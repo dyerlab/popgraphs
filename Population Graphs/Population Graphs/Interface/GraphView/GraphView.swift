@@ -74,6 +74,10 @@ class GraphView: SCNView {
         print("finishing scene setup.")
         
     }
+    
+    public func addGraphNode( theGraph: SCNNode ){
+        self.graphNode.addChildNode( theGraph )
+    }
 
    
     override func draw(_ dirtyRect: NSRect) {

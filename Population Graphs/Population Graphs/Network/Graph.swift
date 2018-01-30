@@ -5,6 +5,8 @@ public class Graph {
     var nodes : [Node]
     var edges : [Edge]
     
+    // MARK: Creation
+    
     public init() {
         self.nodes = [Node]()
         self.edges = [Edge]()
@@ -25,6 +27,18 @@ public class Graph {
                 self.addEdge(edge: Edge(from: nodes[i], to: nodes[j], weight: weight))
             }
         }
+    }
+    
+    
+    // Drawing Functions
+    public func getSceneNodes() -> SCNNode {
+        let sceneNode = SCNNode()
+        
+        for node in self.nodes {
+            sceneNode.addChildNode( node )
+        }
+        
+        return sceneNode
     }
 }
 

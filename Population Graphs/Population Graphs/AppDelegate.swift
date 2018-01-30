@@ -12,18 +12,24 @@ import Cocoa
 class AppDelegate: NSObject, NSApplicationDelegate {
 
     let mainWindowController = MainWindowController()
+    var graph = makeLopho()
     
-
+    
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         
         mainWindowController.showWindow(nil)
+        print("AppDelegate::appDidFinishLaunching")
         
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {
         // Insert code here to tear down your application
+        print("AppDelegate::appWillTerminate")
     }
 
+    @IBAction func makeLophoGraph(_ sender: AnyObject) {
+        print("newDoc baby!")
+    }
 
 }
 
