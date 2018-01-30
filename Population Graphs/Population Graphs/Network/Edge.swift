@@ -1,11 +1,12 @@
 import Foundation
+import SceneKit
 
 public class Edge {
     var node1 : Node
     var node2 : Node
     var weight : Double
     
-    public var description : String {
+    var description : String {
         return "\(self.node1.description) - \(self.node2.description) : \(self.weight)"
     }
     

@@ -14,13 +14,13 @@ class Matrix {
     var rows: Int
     var matrix: [Double]
     
-    init( cols: Int, rows: Int, vals: Double = 0.0 ) {
+    init( rows: Int, cols: Int, vals: Double = 0.0 ) {
         self.rows = rows
         self.cols = cols
         self.matrix = Array(repeating:vals, count:rows*cols)
     }
     
-    subscript( col: Int, row:Int ) -> Double {
+    subscript( row: Int, col: Int ) -> Double {
         get {
             return matrix[ self.cols * row + col ]
         }
